@@ -1,4 +1,4 @@
-import "../assets/styles/Banner.scss"
+import "../assets/styles/banner.scss"
 import Screen from "../assets/images/Screen.png"
 
 

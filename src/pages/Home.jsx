@@ -1,4 +1,4 @@
-import "../assets/styles/Banner.scss"
+import "../assets/styles/banner.scss"
 import Header from '../components/Header'
 import { data } from "../datas/data";
 import { Link } from "react-router-dom";
@@ -16,7 +16,7 @@ const Home = () => {
  <div className='Miniatures'>
 				{data.map(({id ,title, cover }) =>
 		(
-      <Link key={id} to={`/card/${title}`}>
+      <Link key={id} to={`/logement/${title}`}>
 						<div>
 							<img src={cover} alt='cover' className='MiniCard'/>
 						  <h3>{title}</h3>

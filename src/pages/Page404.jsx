@@ -1,6 +1,6 @@
 import Footer from "../components/Footer"
 import Header from "../components/Header"
-import '../assets/styles/Page404.scss'
+import '../assets/styles/page404.scss'
 import { Link } from "react-router-dom";
 function Error() {
   return (
