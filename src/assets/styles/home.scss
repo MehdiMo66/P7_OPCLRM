@@ -1,0 +1,30 @@
+.all{margin:30px}
+
+.Miniatures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+
+    a{
+        width: 30%;
+        overflow: hidden;
+        position: relative;
+        margin:20px;
+    }
+
+    .MiniCard{
+        height: 340px;
+    }
+
+    h3{
+        color:white;
+        position: absolute;
+        z-index: 4;
+        bottom: 8px;
+        left: 3px;
+    }
+}
+
+

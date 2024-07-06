@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+   padding:20px;
+    img {
+        width: 122px;
+        height: 40px;
+    }
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    span {
+        border-radius: 50%;
+        color:white;
+        border: 1px #F2F2F2 solid;
+        padding: 1px;
+        font-size: 12px;
+        text-align: center;
+        width: 10px;
+    }
+        
+    }
+
+    p{
+        color: white
+    }
+}
