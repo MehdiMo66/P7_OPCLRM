@@ -12,7 +12,7 @@ const Home = () => {
       <div>
       <div className='all'>
 <Header/>
-<Banner/>
+<Banner title='Chez vous, partout et ailleurs'/>
  <div className='Miniatures'>
 				{data.map(({id ,title, cover }) =>
 		(
