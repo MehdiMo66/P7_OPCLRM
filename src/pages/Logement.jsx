@@ -64,7 +64,7 @@ function Title() {
 
         <div className="box-info">
 
-          <Collapse title='description'>
+          <Collapse title='Description'>
             <p>{bien.description}</p>
           </Collapse>
 
