@@ -1,13 +1,12 @@
-import "../assets/styles/banner.scss"
 import Screen from "../assets/images/Screen.png"
+import "../assets/styles/banner.scss"
 
-
-function Banner({title}) {
-    console.log(title)
+function Banner() {
 return (
     <div className='banner'>
-        {title && <h1>{title}</h1>} 
-         <img src={Screen} alt='ntm' className='BannerImg'/>
+        
+         <img src={Screen} alt='ld' className='BannerImg'/>
+        
     </div>
 )
 }

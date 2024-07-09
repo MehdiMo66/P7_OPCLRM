@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
-import '../assets/styles/logement.scss'
 import { useState } from 'react'
+import '../assets/styles/logement.scss'
+
 
 
 function Collapse({title , children}) {

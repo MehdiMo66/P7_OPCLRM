@@ -1,19 +1,19 @@
-import Footer from "../components/Footer"
-import Header from "../components/Header"
-import '../assets/styles/page404.scss'
 import { Link } from "react-router-dom";
+import '../assets/styles/page404.scss'
+
+
+
 function Error() {
   return (
-      <div>
-        <Header/>
+      
         <div className="content">
-         <p>404</p>
+         <h1>404</h1>
         <span>Oups! La page que vous demandez n'existe pas.</span>
         <Link to='/'>Retourner sur la page d'acceuil</Link>
         </div>
-         <Footer/>
+      
           
-      </div>
+      
   )
 }
 

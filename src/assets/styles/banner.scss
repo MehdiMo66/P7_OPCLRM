@@ -1,16 +1,14 @@
 
 .banner{
-    position: relative;
-    margin-top:30px;
-    margin-bottom: 30px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
     height: 223px; 
 h1{
     color: white;
-    top:2em;
-    left: 11.5em;
-    position: absolute;
-    z-index: 3;
+    position: relative;
+    margin-top: -135px;
+    text-align: center;
   
 }
 
@@ -25,3 +23,4 @@ img{
 }
 
 }
+

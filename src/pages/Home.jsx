@@ -1,22 +1,20 @@
-import "../assets/styles/banner.scss"
-import Header from '../components/Header'
 import { data } from "../datas/data";
 import { Link } from "react-router-dom";
-import  "../assets/styles/home.scss"
 import Banner from '../components/Banner'
-import Footer from "../components/Footer";
+import "../assets/styles/banner.scss"
+import  "../assets/styles/home.scss"
 
 
 const Home = () => {
     return (
       <div>
       <div className='all'>
-<Header/>
+
 <Banner title='Chez vous, partout et ailleurs'/>
  <div className='Miniatures'>
 				{data.map(({id ,title, cover }) =>
 		(
-      <Link key={id} to={`/logement/${title}`}>
+      <Link key={id} to={`/logement/${id}`}>
 						<div>
 							<img src={cover} alt='cover' className='MiniCard'/>
 						  <h3>{title}</h3>
@@ -27,7 +25,7 @@ const Home = () => {
 			</div>
  
  </div>
- <Footer/>
+
 </div>
     ); 
   }
