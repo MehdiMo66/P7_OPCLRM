@@ -5,7 +5,7 @@ import "../assets/styles/banner.scss"
 import  "../assets/styles/home.scss"
 
 
-const Home = () => {
+function Home() {
     return (
       <div>
       <div className='all'>

@@ -1,4 +1,3 @@
-
 @mixin arrow {
     position: absolute;
     z-index: 4;
@@ -7,7 +6,7 @@
     top: 150px;
 }
 
-.all{
+.all {
     margin: auto;
     margin-top: 20px;
     width: 90%;
@@ -59,6 +58,7 @@ h1 {
             gap: 10px;
             margin-top: 20px;
             flex-wrap: wrap;
+
             span {
                 background-color: #FF6060;
                 color: white;
@@ -140,31 +140,33 @@ h1 {
 }
 
 @media (max-width:767px) {
-    
-    .info-proprio{
-    flex-direction: column;
-    align-items: start;
-    .rating{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        margin-top: 20px;
-        width:100%;
-        align-items: center;
-    }
+
+    .info-proprio {
+        flex-direction: column;
+        align-items: start;
+
+        .rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin-top: 20px;
+            width: 100%;
+            align-items: center;
+        }
     }
 
 
     .carousel {
-        
-    
+
+
         img {
             height: 250px;
         }
 
-        .arrow_left , .arrow_right{
+        .arrow_left,
+        .arrow_right {
             height: 60px;
-            top:100px
+            top: 100px
         }
     }
 }

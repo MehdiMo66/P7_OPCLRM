@@ -7,7 +7,7 @@ import '../assets/styles/logement.scss'
 
 function Collapse({title , children}) {
 
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(null)
 
     return  (
         <div className='box'>
